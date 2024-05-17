@@ -1145,7 +1145,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-wegnoigpu keepsyms=1 debug=0x100 alcid=13 revpatch=auto swd_panic=1</string>
+                    <string>-wegnoigpu keepsyms=1 debug=0x100 alcid=11 revpatch=auto swd_panic=1</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
