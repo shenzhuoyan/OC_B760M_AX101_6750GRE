@@ -38,4 +38,4 @@
 - 启用以下选项
   - 4G以上解码
   - 超线程技术
-  - EHCI/XHCI Hand-off
+  - EHCI/XHCI Hand-off **一定要启用，否则USB会偶发突然失效**
