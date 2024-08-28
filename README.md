@@ -15,7 +15,7 @@
   - Intel AX101
 - 显卡 蓝宝石6750GRE 12G 白金版
 
-- 系统 Sonoma 14.4.1
+- 系统 Sonoma 14.6
 
 ## 功能情况
 
@@ -38,4 +38,4 @@
 - 启用以下选项
   - 4G以上解码
   - 超线程技术
-  - EHCI/XHCI Hand-off **一定要启用，否则USB会偶发突然失效**
+  - EHCI/XHCI Hand-off
