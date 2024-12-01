@@ -2,7 +2,8 @@
 
 ## 展示
 
-![image-20240425141155537](./README.assets/image-20240425141155537.png)
+<img width="392" alt="图片" src="https://github.com/user-attachments/assets/735a3310-71db-4530-a41c-e97353f08f34">
+
 
 ## 配置
 
@@ -15,7 +16,7 @@
   - Intel AX101
 - 显卡 蓝宝石6750GRE 12G 白金版
 
-- 系统 **Sonoma 14.6**
+- 系统 **Sonoma 14.7**
 
 ## 功能情况
 
