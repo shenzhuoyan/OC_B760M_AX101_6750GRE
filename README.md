@@ -16,7 +16,7 @@
   - Intel AX101
 - 显卡 蓝宝石6750GRE 12G 白金版
 
-- 系统 **Sonoma 14.7**
+- 系统 **Sonoma 14.7** / **Sequoia 15.2**
 
 ## 功能情况
 
@@ -28,6 +28,7 @@
 - [x] USB除了板载第一排屏蔽了，其他都正常（因为第一排是HUB，会导致有时USB失效）
 - [x] 睡眠（睡到内存风扇断电与USB键鼠可唤醒）
 - [ ] 无法开启网络共享（热点）
+- [ ] 无法休眠（睡到硬盘，主机断电，开机时从硬盘恢复内存状态）
 
 ## BIOS设置
 
@@ -41,3 +42,15 @@
   - 4G以上解码
   - 超线程技术
   - EHCI/XHCI Hand-off
+
+## Sequoia配置Intel WiFi 蓝牙
+
+1. 关闭SIP（我给的EFI里已经关了，如果你没关自行关闭）
+2. 清除NVRAM （在启动到OC选择系统的时候，按空格会显示清除NVRAM的选项），这个操作会清掉OC的UEFI启动项，重新添加即可。
+
+3. 下载 [OCLP-Mod](https://github.com/laobamac/OCLP-Mod) 并安装，打开后点击**安装驱动补丁**
+4. 重启后WiFi蓝牙正常。（蓝牙打不开就清除NVRAM）
+
+## 其他
+
+不要直接下[NootRX](https://github.com/ChefKissInc/NootRX/actions/workflows/main.yml)的最新版，说不定就有什么bug，用别人EFI里的都是他用着没问题的。我就是因为显卡驱动bug导致唤醒后系统卡顿，卡了两天才排查出来。
